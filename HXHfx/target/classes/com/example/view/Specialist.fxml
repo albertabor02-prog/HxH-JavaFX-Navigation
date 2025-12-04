@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="613.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhfx.controller.SpecialistController">
+   <children>
+      <Text layoutX="84.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chrollo Lucilfer – Specialist Nen User" underline="true">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="285.0" fitWidth="431.0" layoutX="84.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Specialist.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="85.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Chrollo Lucilfer is the leader of the Phantom Troupe and one of the most unpredictable fighters in Hunter × Hunter. As a Specialist, he has a rare Nen type that gives him abilities outside the normal categories. His main power, Skill Hunter, lets him steal other people’s Nen abilities and use them as his own by meeting certain conditions. This makes him extremely versatile and dangerous, since he can switch between many abilities during a fight." textAlignment="JUSTIFY" wrappingWidth="431.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Button layoutX="275.0" layoutY="559.0" mnemonicParsing="false" text="Home" onAction="#goToHome" />
+   </children>
+</AnchorPane>

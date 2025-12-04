@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="613.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hxhfx.controller.EnhancerController">
+   <children>
+      <Text layoutX="116.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gon Freecss – Enhancer Nen User" underline="true">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="285.0" fitWidth="431.0" layoutX="92.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/Enhancer.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="85.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Gon Freecss is an energetic and determined boy who travels the world to find his father and become a great Hunter. He is cheerful, honest, and straightforward, always pushing himself to grow stronger. As an Enhancer, Gon has a Nen type known for boosting physical strength and power. His main move, Jajanken, focuses his aura to greatly enhance his punches, giving him explosive force in battle. This Enhancer ability fits his direct and hardworking nature, making Gon a powerful and reliable fighter." textAlignment="JUSTIFY" wrappingWidth="431.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Button layoutX="276.0" layoutY="549.0" mnemonicParsing="false" text="Home" onAction="#goToHome" />
+   </children>
+</AnchorPane>
